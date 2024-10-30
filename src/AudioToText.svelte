@@ -136,7 +136,7 @@
   <div class="container">
     <h2>Audio to Text Converter</h2>
     <!-- Updated input to include capture attribute for mobile -->
-    <input type="file" accept="audio/*" capture on:change="{handleFileChange}" />
+    <input type="file" accept="audio/*"  on:change="{handleFileChange}" />
     <button on:click="{handleTranscribe}">Transcribe Audio</button>
   
     {#if loading}
